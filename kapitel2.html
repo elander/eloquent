@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <pre id="resultat"></pre>
+
+  <script>
+    // vi behöver en loop 
+    // vi behöver hålla reda på hur många 
+    // gånger vi ska köra (7) 
+    // vi behöver ett test som avgör om vi ska fortsätta
+    for (let pyramid = ""; pyramid.length <= 7; pyramid += "#") {
+      console.log(pyramid);
+    }
+    let hash = "";
+    for (let num = 0; num < 7; num++) {
+      hash += "#";
+      console.log(hash);
+    }
+  </script>
+</body>
+
+</html>
